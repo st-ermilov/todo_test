@@ -1,0 +1,83 @@
+.container {
+    border-radius: 8px;
+    box-shadow: 4px 4px 26px -9px rgba(0, 0, 0, 0.75);
+    min-width: 350px;
+    background-color: white;
+    width: 70dvw;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    width: 20px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.inputs_container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inputs_container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.inputs_container form input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+.inputs_container form input::placeholder {
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.inputs_container form input:focus::placeholder {
+    color: transparent;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+.search input::placeholder {
+    font-style: italic;
+}
+
+.search input:focus::placeholder {
+    color: transparent;
+}
+
+.search img {
+    width: 20px;
+}

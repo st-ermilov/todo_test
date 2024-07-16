@@ -1,0 +1,44 @@
+.input_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: #f6e0d0;;
+}
+.textarea_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.textarea {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: #f6e0d0;
+}
+
+.btn {
+    width: 20px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    opacity: 0.5;
+}
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}

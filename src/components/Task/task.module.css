@@ -1,0 +1,75 @@
+
+.container {
+    padding: 15px 10px;
+    background-color: #f6e0d0;
+    border-radius: 8px;
+}
+.task_done {
+    opacity: 0.4;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.title h4 {
+    margin: 0;
+    font-size: 19px; /* размер шрифта */
+    font-weight: bold; /* жирность шрифта */
+    font-family: 'Arial', sans-serif; /* семейство шрифтов */
+    color: black;
+}
+
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    text-align: start;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+button {
+    all: unset;
+}
+
+.btn {
+    width: 20px;
+    cursor: pointer;
+    transition: all 400ms ease;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.task_footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.task_footer span {
+    font-size: 12px;
+}
+.footer_btns{
+    display: flex;
+    gap: 5px;
+}
